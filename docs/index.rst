@@ -3,8 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to pycon's documentation!
-=================================
+Welcome to Sphinxy's documentation!
+===================================
+
+Explore Sphinxy's documentation.
 
 .. toctree::
    :maxdepth: 2
@@ -13,7 +15,8 @@ Welcome to pycon's documentation!
    modules
 
 The Egyptian Sphinx
---------------------
+-------------------
+
 .. image:: _static/sphinx.png
 
 
