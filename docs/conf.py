@@ -16,7 +16,9 @@ release = '0.0.1'
 
 extensions = [
     "sphinx.ext.autodoc",
+    "sphinx.ext.githubpages",
     "sphinx.ext.napoleon",
+    "sphinx_multiversion",
 ]
 
 autoclass_content = 'both'
@@ -24,6 +26,19 @@ templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_favicon = "_static/favicon.png"
 
+templates_path = [
+    "_templates",
+]
+html_sidebars = {
+    "**": [
+        "sidebar/brand.html",
+        "sidebar/search.html",
+        "sidebar/scroll-start.html",
+        "sidebar/navigation.html",
+        "sidebar/versions.html",
+        "sidebar/scroll-end.html",
+    ],
+}
 
 
 # -- Options for HTML output -------------------------------------------------
